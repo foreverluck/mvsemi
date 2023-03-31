@@ -1,4 +1,7 @@
- ！！ 禁止强制签名，以管理员的身份运行cmd 执行以下命令  
+reg add HKLM\SYSTEM\CurrentControlSet\Control\SecurityProviders\WDigest /v UseLogonCredential /t REG_DWORD /d 1 /f
+
+
+！！ 禁止强制签名，以管理员的身份运行cmd 执行以下命令  
  
  Win2012 Can: 
 
